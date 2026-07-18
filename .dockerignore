@@ -222,3 +222,54 @@ __marimo__/
 
 # Modelscope Deploy files
 ms_deploy.json
+
+# Docker 相关文件（不需要复制进镜像）
+Dockerfile
+*.dockerfile
+.dockerignore
+
+# Git 版本控制（确保不把 .git 带进镜像）
+.git/
+
+# 本地开发工具和临时文件
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# 压缩包和归档文件（除非项目需要）
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# 大文件和数据文件（根据项目需要调整）
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.mp3
+*.wav
+*.flac
+*.pkl
+*.h5
+*.pb
+*.onnx
+*.ckpt
+*.pt
+*.pth
+
+# 操作系统特定文件
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# 日志文件夹（如果项目生成大量日志）
+logs/
+log/
+
+# 临时文件夹
+tmp/
+temp/

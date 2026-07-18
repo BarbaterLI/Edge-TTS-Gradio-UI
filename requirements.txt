@@ -1,0 +1,8 @@
+edge-tts
+fastapi
+uvicorn
+aiohttp
+certifi
+tabulate
+typing_extensions
+gradio
